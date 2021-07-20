@@ -9,4 +9,4 @@ ______
 `nDRandom` is a tool that outputs a random coordinates generater in n-th dimensions.
 
 ## 2. Concept
-<img width=300 src="">
+<img width=300 src="https://github.com/YujiSODE/nDRandom/IMG/conceptIMG_nDRandom.png">
