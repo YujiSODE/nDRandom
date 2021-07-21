@@ -29,7 +29,7 @@ package require Tcl 8.6;
 #
 #*** <namespace ::nDRandom> ***
 #
-#procedure that outputs a random coordinates generater in the current directory
+#procedure that outputs a random coordinates generator in the current directory
 proc ::nDRandom::output\$ {NAME} {
 	# - $NAME: a keyword to determine output file name and its functions
 	###
