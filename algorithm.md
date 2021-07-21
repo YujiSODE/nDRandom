@@ -8,8 +8,7 @@ Let variable elements be _`E`_`= (`_`e`_<sub>`0`</sub>`,`_`e`_<sub>`1`</sub>`,..
 A range of a variable element `e`<sub>_`i`_</sub> is divided into _`d`_<sub>_`i`_</sub> intervals.  
 A given space is divided into `∏(`_`d`_*<sub>`i`</sub>*`)` cells, where `∏(`_`d`_*<sub>`i`</sub>*`)=`_`d`_<sub>`0`</sub>`*`_`d`_<sub>`1`</sub>`* ... *`_`d`_*<sub>`n`</sub>*.  
 A probability to pick up a cell is _`p`_*<sub>`i`</sub>*`=1/∏(`_`d`_*<sub>`i`</sub>*`)`, and _`p`_<sub>`0`</sub>`=`_`p`_<sub>`1`</sub>`= ... =`_`p`_*<sub>`n`</sub>*.  
-	   
-	   a probability to pick up a prespecified point in a cell is also `pi=1/∏(di)`.
+A probability to pick up a prespecified point in a cell is also _`p`_*<sub>`i`</sub>*`=1/∏(`_`d`_*<sub>`i`</sub>*`)`.
 
 	II. 
 	   let indices correspond to a specified intervals in divided elements as follows:
