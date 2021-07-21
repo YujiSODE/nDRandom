@@ -13,7 +13,8 @@ Output generated script format: `${name}_info()` and `${name}_random(double)` in
 - `${name}_info()`: it returns preset data
 - `${name}_random(double)`: it returns a random coordinates in `n`-th dimensions
   - `$double`: a real number in range `(0.0, 1.0)`
-  - output coordinates: `{`_`x`_<sub>`1`</sub>` `_`dx`_<sub>`1`</sub>` `_`x`_<sub>`2`</sub>` `_`dx`_<sub>`2`</sub>` ... `_`x`_*<sub>`n`</sub>*` `_`dx`_*<sub>`n`</sub>*`}` where Xi = xi+k*dxi and k is a constant
+  - output coordinates: `{`_`x`_<sub>`1`</sub>` `_`dx`_<sub>`1`</sub>` `_`x`_<sub>`2`</sub>` `_`dx`_<sub>`2`</sub>` ... `_`x`_*<sub>`n`</sub>*` `_`dx`_*<sub>`n`</sub>*`}`  
+    where _`X`_*<sub>`i`</sub>*`=`_`x`_*<sub>`i`</sub>*`+`_`k`_`*`_`dx`_*<sub>`i`</sub>* and _`k`_ is a constant.
 
 ## 2. Concept
 <img width=300 src="conceptIMG_nDRandom.png" alt="conceptIMG_nDRandom">
