@@ -30,8 +30,8 @@ _`IDX`_*<sub>`j`</sub>*`=`_`block`_<sub>_`j`_`-1`</sub>`%`_`d`_*<sub>`j`</sub>*,
 _`block`_*<sub>`j`</sub>*`=ceil(`_`idx`_`/∏(`_`d`_*<sub>`i`</sub>*`): `_`i`_`= 0 to `_`j`_`)`.
 
 #### III.
-		a coordinate element value can be estimated as follows:
-		`ej = x0+mj*dx`
-		where `mj` is constant, `x0 = ej[IDXj]`
-		and `dx = (ej_max-ej_min)/dj`
-
+A coordinate element value can be estimated as follows:  
+_`e`_<sub>*`j`*</sub>`=`_`x`_<sub>`0`</sub>`+`_`c`_*<sub>`j`</sub>*`*`_`dx`_,  
+where _`c`_*<sub>`j`</sub>* is constant,  
+_`x`_<sub>`0`</sub>`=`_`e`_*<sub>`j`</sub>*`[`_`IDX`_*<sub>`j`</sub>*`]`  
+and _`dx`_`=(`_`e`_*<sub>`j`</sub>*<sup>`max`</sup>`-`_`e`_*<sub>`j`</sub>*<sup>`min`</sup>`)/`_`d`_*<sub>`j`</sub>*.
