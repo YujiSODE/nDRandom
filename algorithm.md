@@ -1,6 +1,5 @@
 # nDRandom
 ## Algorithm
-Algorithm based on idea from `nDRandom_IDEA.txt`.  
 To obtain random coordinates from a given space in n-th dimensions.
 
 ### I.
