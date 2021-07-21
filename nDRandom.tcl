@@ -9,7 +9,7 @@
 #	This software is released under the MIT License.
 #	See LICENSE or http://opensource.org/licenses/mit-license.php
 ##===================================================================
-#Tool that outputs a random coordinates generater in n-th dimensions
+#Tool that outputs a random coordinates generator in n-th dimensions
 #
 #=== Synopsis ===
 #*** [shell] ***
@@ -231,7 +231,7 @@ proc ::nDRandom::cells {} {
 #--------------------------------------------------------------------
 #
 #--- outputs ---
-#procedure that outputs a random coordinates generater in the current directory
+#procedure that outputs a random coordinates generator in the current directory
 #it returns output file name
 #
 #=== generated script ===
