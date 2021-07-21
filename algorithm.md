@@ -10,7 +10,7 @@ A given space is divided into `∏(`_`d`_*<sub>`i`</sub>*`)` cells, where `∏(`
 A probability to pick up a cell is _`p`_*<sub>`i`</sub>*`=1/∏(`_`d`_*<sub>`i`</sub>*`)`, and _`p`_<sub>`0`</sub>`=`_`p`_<sub>`1`</sub>`= ... =`_`p`_*<sub>`n`</sub>*.  
 A probability to pick up a prespecified point in a cell is also _`p`_*<sub>`i`</sub>*`=1/∏(`_`d`_*<sub>`i`</sub>*`)`.
 
-	II. 
+### II.
 	   let indices correspond to a specified intervals in divided elements as follows:
 	   `IDX = (IDX0, IDX1, ... , IDXn)`.
 	   let `idx` be in range [0, ∏(di)].
