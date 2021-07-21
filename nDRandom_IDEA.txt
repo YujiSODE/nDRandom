@@ -19,7 +19,7 @@
 	II. 
 	   let indices correspond to a specified intervals in divided elements as follows:
 	   `IDX = (IDX0, IDX1, ... , IDXn)`.
-	   let `idx` be in range [0, ∏(di)].
+	   let `idx` be in range [0, ∏(di)-1].
 	
 		[ei = e0]
 		`IDX0 = idx%d0`,
