@@ -1,6 +1,6 @@
 # nDRandom
 ## Algorithm
-Algorithm based on idea from `nDRandom_IDEA.txt`.
+Algorithm based on idea from `nDRandom_IDEA.txt`.  
 To obtain random coordinates from a given space in n-th dimensions.
 
 ### I.
@@ -14,10 +14,10 @@ A probability to pick up a prespecified point in a cell is also _`p`_*<sub>`i`</
 Let indices correspond to a specified intervals in divided elements as follows:  
 _`IDX`_`=(`_`IDX`_<sub>`0`</sub>`,`_`IDX`_<sub>`1`</sub>`,...,`_`IDX`_*<sub>`n`</sub>*`)`.  
 Let _`idx`_ be in range `[0, ∏(`_`d`_*<sub>`i`</sub>*`)]`.
-	
-		[ei = e0]
-		`IDX0 = idx%d0`,
-		`block0 = ceil(idx/d0)`
+
+#### _`e`_*<sub>`i`</sub>*`=`_`e`_<sub>`0`</sub>
+_`IDX`_<sub>`0`</sub>`=`_`idx`_`%`_`d`_<sub>`0`</sub>,  
+_`block`_<sub>`0`</sub>`=ceil(`_`idx`_`/`_`d`_<sub>`0`</sub>`)`.
 		
 		[ei = e1]
 		`IDX1 = block0%d1`,
