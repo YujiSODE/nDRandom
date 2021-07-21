@@ -12,7 +12,8 @@ ______
 <img width=300 src="conceptIMG_nDRandom.png" alt="conceptIMG_nDRandom">
 
 ## 3. [Algorithm](algorithm.md)
-Main algorithm is
+Main algorithm is  
+let random variable elements be _`E`_`= (`_`e`_<sub>`0`</sub>`,`_`e`_<sub>`1`</sub>`,...,`_`e`_<sub>`n`</sub>`)` where _`i`_`=0,...,`_`n`_.
 
 ## 4. Scripts
 - [`nDRandom.tcl`](nDRandom.tcl): main script
