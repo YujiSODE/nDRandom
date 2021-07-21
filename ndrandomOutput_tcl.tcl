@@ -20,7 +20,7 @@
 # - ${NAME}_info(): it returns preset data
 # - ${NAME}_random(double): it returns a random coordinates in n-th dimensions
 #   - $double: a real number in range (0.0, 1.0)
-#   - output coordinates: {x1 dx1 x2 dx2 ... xn dxn} where Xi = xi+k*dxi and k is a constant
+#   - output coordinates: {x1 dx1 x2 dx2 ... xn dxn} where Xi = xi+c*dxi and c is a constant
 ##===================================================================
 #
 set auto_noexec 1;
@@ -87,7 +87,7 @@ proc ::nDRandom::output\$ {NAME} {
 		#___[output script: random]___
 		puts -nonewline $c "\n\#it returns a random coordinates in n-th dimensions";
 		puts -nonewline $c "\n\# - \$double: a real number in range \(0.0, 1.0\)";
-		puts -nonewline $c "\n\#output coordinates: \{x1 dx1 x2 dx2 ... xn dxn\} where Xi = xi+k*dxi and k is a constant";
+		puts -nonewline $c "\n\#output coordinates: \{x1 dx1 x2 dx2 ... xn dxn\} where Xi = xi+c*dxi and c is a constant";
 		#
 		puts -nonewline $c "\nproc ::tcl::mathfunc::${NAME}_random \{double\} \{";
 			#
