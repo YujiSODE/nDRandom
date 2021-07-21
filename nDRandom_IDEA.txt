@@ -36,7 +36,7 @@
 		`blockj = ceil(idx/∏(di): i = 0 to j)`.
 
 	III.
-		a coordinate can be estimated as follows:
+		a coordinate element value can be estimated as follows:
 		`ej = x0+mj*dx`
 		where `mj` is constant, `x0 = ej[IDXj]`
 		and `dx = (ej_max-ej_min)/dj`
