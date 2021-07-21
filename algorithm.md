@@ -21,15 +21,15 @@ _`block`_<sub>`0`</sub>`=ceil(`_`idx`_`/`_`d`_<sub>`0`</sub>`)`.
 
 #### _`e`_*<sub>`i`</sub>*`=`_`e`_<sub>`1`</sub>
 _`IDX`_<sub>`1`</sub>`=`_`block`_<sub>`0`</sub>`%`_`d`_<sub>`1`</sub>,  
-_`block`_<sub>`1`</sub>`=ceil(`_`idx`_`/(`_`d`_<sub>`0`</sub>`*`_d1))`
+_`block`_<sub>`1`</sub>`=ceil(`_`idx`_`/(`_`d`_<sub>`0`</sub>`*`_`d`_<sub>`1`</sub>`))`
 
 `...`  
 
 #### _`e`_*<sub>`i`</sub>*`=`_`e`_*<sub>`j`</sub>*
 _`IDX`_*<sub>`j`</sub>*`=`_`block`_<sub>_`j`_`-1`</sub>`%`_`d`_*<sub>`j`</sub>*,  
-		`blockj = ceil(idx/∏(di): i = 0 to j)`.
+_`block`_*<sub>`j`</sub>*`=ceil(`_`idx`_`/∏(`_`d`_*<sub>`i`</sub>*`): `_`i`_`= 0 to `_`j`_`)`.
 
-	III.
+#### III.
 		a coordinate element value can be estimated as follows:
 		`ej = x0+mj*dx`
 		where `mj` is constant, `x0 = ej[IDXj]`
