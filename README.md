@@ -22,7 +22,7 @@ A coordinate element value can be estimated as follows:
 _`e`_<sub>*`j`*</sub>`=`_`x`_<sub>`0`</sub>`+`_`m`_*<sub>`j`</sub>*`*`_`dx`_,  
 where _`m`_*<sub>`j`</sub>* is constant,  
 _`x`_<sub>`0`</sub>`=`_`e`_*<sub>`j`</sub>*`[`_`IDX`_*<sub>`j`</sub>*`]`  
-and `dx = (ej_max-ej_min)/dj`
+and _`dx`_`=(`_`e`_*<sub>`j`</sub>*<sup>`max`</sup>`-`_`e`_*<sub>`j`</sub>*<sup>`min`</sup>`)/`_`d`_*<sub>`j`</sub>*.
 
 ## 4. Scripts
 - [`nDRandom.tcl`](nDRandom.tcl): main script
