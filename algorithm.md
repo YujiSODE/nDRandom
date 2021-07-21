@@ -26,7 +26,7 @@ _`block`_<sub>`1`</sub>`=ceil(`_`idx`_`/(`_`d`_<sub>`0`</sub>`*`_d1))`
 `...`  
 
 #### _`e`_*<sub>`i`</sub>*`=`_`e`_*<sub>`j`</sub>*
-_`IDX`_*<sub>`j`</sub>*`=`_`block`_*<sub>`j`</sub>*<sub>`-1`</sub>`%`_`d`_*<sub>`j`</sub>*,  
+_`IDX`_*<sub>`j`</sub>*`=`_`block`_<sub>_`j`_`-1`</sub>`%`_`d`_*<sub>`j`</sub>*,  
 		`blockj = ceil(idx/∏(di): i = 0 to j)`.
 
 	III.
