@@ -18,8 +18,8 @@ Let _`idx`_ be in range `[0, ∏(`_`d`_*<sub>`i`</sub>*`)]`.
 #### _`e`_*<sub>`i`</sub>*`=`_`e`_<sub>`0`</sub>
 _`IDX`_<sub>`0`</sub>`=`_`idx`_`%`_`d`_<sub>`0`</sub>,  
 _`block`_<sub>`0`</sub>`=ceil(`_`idx`_`/`_`d`_<sub>`0`</sub>`)`.
-		
-		[ei = e1]
+
+#### _`e`_*<sub>`i`</sub>*`=`_`e`_<sub>`1`</sub>
 		`IDX1 = block0%d1`,
 		`block1 = ceil(idx/(d0*d1))`
 		
