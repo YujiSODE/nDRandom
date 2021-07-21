@@ -1,12 +1,12 @@
 # nDRandom
-Tool that outputs a random coordinates generater in n-th dimensions  
+Tool that outputs a random coordinates generator in n-th dimensions  
 GitHub: https://github.com/YujiSODE/nDRandom  
 >Copyright (c) 2020 Yuji SODE \<yuji.sode@gmail.com\>  
 >This software is released under the MIT License.  
 >See LICENSE or http://opensource.org/licenses/mit-license.php  
 ______
 ## 1. Description
-`nDRandom` is a tool that outputs a random coordinates generater in n-th dimensions.  
+`nDRandom` is a tool that outputs a random coordinates generator in n-th dimensions.  
 The generated script is output in the current directory.  
 Output generated script format: `${name}_info()` and `${name}_random(double)` in math functions.  
   
