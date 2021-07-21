@@ -10,3 +10,10 @@ ______
 
 ## 2. Concept
 <img width=300 src="conceptIMG_nDRandom.png" alt="conceptIMG_nDRandom">
+
+## 3. [Algorithm](algorithm.md)
+Main algorithm is
+
+## 4. Scripts
+- [`nDRandom.tcl`](nDRandom.tcl): main script
+- [`ndrandomOutput_tcl.tcl`](ndrandomOutput_tcl.tcl): module to output as Tcl file
