@@ -1,6 +1,7 @@
 # nDRandom
 ## Algorithm
-To obtain random coordinates from a given space in n-th dimensions.
+To obtain random coordinates from a given space in n-th dimensions.  
+<img width=300 src="conceptIMG_nDRandom.png" alt="conceptIMG_nDRandom">
 
 ### I.
 Let variable elements be _`E`_`= (`_`e`_<sub>`0`</sub>`,`_`e`_<sub>`1`</sub>`,...,`_`e`_*<sub>`n`</sub>*`)` where _`i`_`=0,...,`_`n`_.  
