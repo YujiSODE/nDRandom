@@ -11,9 +11,9 @@ A probability to pick up a cell is _`p`_*<sub>`i`</sub>*`=1/∏(`_`d`_*<sub>`i`<
 A probability to pick up a prespecified point in a cell is also _`p`_*<sub>`i`</sub>*`=1/∏(`_`d`_*<sub>`i`</sub>*`)`.
 
 ### II.
-	   let indices correspond to a specified intervals in divided elements as follows:
-	   `IDX = (IDX0, IDX1, ... , IDXn)`.
-	   let `idx` be in range [0, ∏(di)].
+Let indices correspond to a specified intervals in divided elements as follows:  
+_`IDX`_`=(`_`IDX`_<sub>`0`</sub>`,`_`IDX`_<sub>`1`</sub>`,...,`_`IDX`_*<sub>`n`</sub>*`)`.  
+Let _`idx`_ be in range `[0, ∏(`_`d`_*<sub>`i`</sub>*`)]`.
 	
 		[ei = e0]
 		`IDX0 = idx%d0`,
