@@ -14,7 +14,7 @@ Output generated script format: `${name}_info()` and `${name}_random(double)` in
 - `${name}_random(double)`: it returns a random coordinates in `n`-th dimensions
   - `$double`: a real number in range `(0.0, 1.0)`
   - output coordinates: `{`_`x`_<sub>`1`</sub>` `_`dx`_<sub>`1`</sub>` `_`x`_<sub>`2`</sub>` `_`dx`_<sub>`2`</sub>` ... `_`x`_*<sub>`n`</sub>*` `_`dx`_*<sub>`n`</sub>*`}`  
-    where _`X`_*<sub>`i`</sub>*`=`_`x`_*<sub>`i`</sub>*`+`_`k`_`*`_`dx`_*<sub>`i`</sub>* and _`k`_ is a constant.
+    where _`X`_*<sub>`i`</sub>*`=`_`x`_*<sub>`i`</sub>*`+`_`c`_`*`_`dx`_*<sub>`i`</sub>* and _`c`_ is a constant.
 
 ## 2. Concept
 <img width=300 src="conceptIMG_nDRandom.png" alt="conceptIMG_nDRandom">
@@ -27,8 +27,8 @@ Let indices correspond to a specified intervals in divided elements as follows:
 _`IDX`_`=(`_`IDX`_<sub>`0`</sub>`,`_`IDX`_<sub>`1`</sub>`,...,`_`IDX`_*<sub>`n`</sub>*`)`.  
   
 A coordinate element value can be estimated as follows:  
-_`e`_<sub>*`j`*</sub>`=`_`x`_<sub>`0`</sub>`+`_`m`_*<sub>`j`</sub>*`*`_`dx`_,  
-where _`m`_*<sub>`j`</sub>* is constant,  
+_`e`_<sub>*`j`*</sub>`=`_`x`_<sub>`0`</sub>`+`_`c`_*<sub>`j`</sub>*`*`_`dx`_,  
+where _`c`_*<sub>`j`</sub>* is constant,  
 _`x`_<sub>`0`</sub>`=`_`e`_*<sub>`j`</sub>*`[`_`IDX`_*<sub>`j`</sub>*`]`  
 and _`dx`_`=(`_`e`_*<sub>`j`</sub>*<sup>`max`</sup>`-`_`e`_*<sub>`j`</sub>*<sup>`min`</sup>`)/`_`d`_*<sub>`j`</sub>*.
 
