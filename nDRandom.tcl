@@ -40,7 +40,7 @@
 # - ${name}_info(): it returns preset data
 # - ${name}_random(double): it returns a random coordinates in n-th dimensions
 #   - $double: a real number in range (0.0, 1.0)
-#   - output coordinates: {x1 dx1 x2 dx2 ... xn dxn} where Xi = xi+k*dxi and k is a constant
+#   - output coordinates: {x1 dx1 x2 dx2 ... xn dxn} where Xi = xi+c*dxi and c is a constant
 #--------------------------------------------------------------------
 #
 #*** <namespace ::nDRandom> ***
@@ -241,7 +241,7 @@ proc ::nDRandom::cells {} {
 # - ${name}_info(): it returns preset data
 # - ${name}_random(double): it returns a random coordinates in n-th dimensions
 #   - $double: a real number in range (0.0, 1.0)
-#   - output coordinates: {x1 dx1 x2 dx2 ... xn dxn} where Xi = xi+k*dxi and k is a constant
+#   - output coordinates: {x1 dx1 x2 dx2 ... xn dxn} where Xi = xi+c*dxi and c is a constant
 proc ::nDRandom::output {name {option tcl}} {
 	# - $name: a keyword to determine output file name and its functions
 	# - $option: an optional keyword to determine output type, and default value is "tcl"

@@ -11,7 +11,7 @@
 "To obtain random coordinates from a given space in n-th dimensions"
 	I. 
 	   let variable elements be `E = (e0, e1, ..., en)` where `i = 0, ..., n`.
-	   a range of variable element `ei` is divided into `di` intervals.
+	   a range of a variable element `ei` is divided into `di` intervals.
 	   a given space is divided into `∏(di)` cells, where `∏(di) = d0*d1* ... *dn`.
 	   a probability to pick up a cell is `pi = 1/∏(di)`, and `p0 = p1 = ... = pn`.
 	   a probability to pick up a prespecified point in a cell is also `pi=1/∏(di)`.
@@ -36,7 +36,7 @@
 		`blockj = ceil(idx/∏(di): i = 0 to j)`.
 
 	III.
-		a coordinate can be estimated as follows:
+		a coordinate element value can be estimated as follows:
 		`ej = x0+mj*dx`
 		where `mj` is constant, `x0 = ej[IDXj]`
 		and `dx = (ej_max-ej_min)/dj`
