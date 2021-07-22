@@ -32,7 +32,7 @@ Output generated script format: `${name}_info()` and `${name}_random(double)` in
   - `$option`: an optional keyword to determine output type, and default value is `tcl`
 
 ### Available keyword for `$option`
-tcl
+    tcl
 
 ### Generated script
 The generated script is output in the current directory.
