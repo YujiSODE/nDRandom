@@ -9,14 +9,6 @@ ______
 
 ## 1. Description
 `nDRandom` is a tool that outputs a random coordinates generator in n-th dimensions.  
-The generated script is output in the current directory.  
-Output generated script format: `${name}_info()` and `${name}_random(double)` in math functions.  
-  
-- `${name}_info()`: it returns preset data
-- `${name}_random(double)`: it returns a random coordinates in `n`-th dimensions
-  - `$double`: a real number in range `(0.0, 1.0)`
-  - output coordinates: `{`_`x`_<sub>`1`</sub>` `_`dx`_<sub>`1`</sub>` `_`x`_<sub>`2`</sub>` `_`dx`_<sub>`2`</sub>` ... `_`x`_*<sub>`n`</sub>*` `_`dx`_*<sub>`n`</sub>*`}`  
-    where _`X`_*<sub>`i`</sub>*`=`_`x`_*<sub>`i`</sub>*`+`_`c`_`*`_`dx`_*<sub>`i`</sub>* and _`c`_ is a constant.
 
 ### shell
 - `tclsh nDRandom.tcl name option min1 max1 division1 ?min2 max2 division2 ?... minN maxN divisionN??;`
