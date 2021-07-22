@@ -24,7 +24,7 @@ Output generated script format: `${name}_info()` and `${name}_random(double)` in
   - `$option`: a keyword to determine output type
   - `$min1, $max1 and $division1`: data range
   - `$min2, $max2 and $division2 (, ..., $minN, $maxN and $divisionN)`: optional data ranges
-    - `$dividson`: number of divided ranges that are not less than 2
+    - `$division`: number of divided ranges that are not less than 2
 
 ### Tcl
 - `::nDRandom::setRange min max division;`: loads a variable range
