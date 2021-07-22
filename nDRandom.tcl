@@ -20,8 +20,8 @@
 #   	- $min2, $max2 and $division2 (, ..., $minN, $maxN and $divisionN): optional data ranges
 #
 #*** [Tcl] ***
-#`::nDRandom::setRange min max division;` loads a variable range
-#`::nDRandom::output name ?option?;` outputs a random coordinates generater in the current directory
+# - `::nDRandom::setRange min max division;`: loads a variable range
+# - `::nDRandom::output name ?option?;`: outputs a random coordinates generater in the current directory
 #
 #   	- $min and $max: minimum and maximum values
 #   	- $dividion: number of divided ranges
