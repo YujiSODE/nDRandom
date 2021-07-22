@@ -3,6 +3,8 @@
 
 ## [0.11 beta] - 2021-07-22
 ## Changed
+- [`nDRandom.tcl`] line 125:  
+  >` 	set division [expr {$division<2?2:int($division)}];`
 - [`nDRandom.tcl`] line 118:  
   >` 	# - $dividion: number of divided ranges that are not less than 2`
 - [`nDRandom.tcl`] lines 28 and 53:  
