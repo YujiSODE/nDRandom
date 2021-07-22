@@ -18,13 +18,14 @@
 #   	- $option: a keyword to determine output type
 #   	- $min1, $max1 and $division1: data range
 #   	- $min2, $max2 and $division2 (, ..., $minN, $maxN and $divisionN): optional data ranges
+#   	  - $dividion: number of divided ranges that are not less than 2
 #
 #*** [Tcl] ***
 # - `::nDRandom::setRange min max division;`: loads a variable range
 # - `::nDRandom::output name ?option?;`: outputs a random coordinates generater in the current directory
 #
 #   	- $min and $max: minimum and maximum values
-#   	- $dividion: number of divided ranges
+#   	- $dividion: number of divided ranges that are not less than 2
 #   	- $name: a keyword to determine output file and its functions
 #   	- $option: an optional keyword to determine output type, and default value is "tcl"
 #
@@ -49,7 +50,7 @@
 #   	procedure that loads a variable range: minimum and maximum values, and number of divided ranges
 #   	number of preset data is returned
 #   	- $min and $max: minimum and maximum values
-#   	- $dividion: number of divided ranges
+#   	- $dividion: number of divided ranges that are not less than 2
 #
 # - `::nDRandom::reset;`
 #   	procedure that resets preset data, and returns number of preset data
@@ -114,14 +115,14 @@ namespace eval ::nDRandom {
 #number of preset data is returned
 proc ::nDRandom::setRange {min max division} {
 	# - $min and $max: minimum and maximum values
-	# - $dividion: number of divided ranges
+	# - $dividion: number of divided ranges that are not less than 2
 	#
 	variable ::nDRandom::N;variable ::nDRandom::ID_LIST;variable ::nDRandom::DATA;
 	###
 	set min_ [expr {$min<$max?$min:$max}];
 	set max_ [expr {$min<$max?$max:$min}];
 	#
-	set division [expr {$division<1?1:int($division)}];
+	set division [expr {$division<2?2:int($division)}];
 	#
 	# (max-min)/division
 	set dx [expr {lSum([list $max_ -$min_])/double($division)}];
@@ -265,6 +266,7 @@ proc ::nDRandom::output {name {option tcl}} {
 #   	- $option: a keyword to determine output type
 #	- $min1, $max1 and $division1: data range
 #	- $min2, $max2 and $division2 (, ..., $minN, $maxN and $divisionN): optional data ranges
+#   	  - $dividion: number of divided ranges that are not less than 2
 ###
 #
 #--- arguments ---
