@@ -2,6 +2,9 @@
 ## [Unreleased]
 
 ## [0.11 beta] - 2021-07-22
+## Removed
+- [`README.md`] lines 12-19
+
 ## Changed
 - [`README.md`] line 33:  
   >`  - `$division`: number of divided ranges that are not less than 2`
