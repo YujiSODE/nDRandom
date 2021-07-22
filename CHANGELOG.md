@@ -4,11 +4,11 @@
 ## [0.11 beta] - 2021-07-22
 ## Changed
 - [`README.md`] line 33:  
-  >`  - `$dividion`: number of divided ranges that are not less than 2`
+  >`  - `$division`: number of divided ranges that are not less than 2`
 
 ## Added
 - [`README.md`] line 27:  
-  >`     - `$dividion`: number of divided ranges that are not less than 2`
+  >`     - `$division`: number of divided ranges that are not less than 2`
 - [`nDRandom.tcl`] line 269:  
   >` #   	  - $division: number of divided ranges that are not less than 2`
 
