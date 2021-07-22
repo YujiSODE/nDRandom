@@ -5,6 +5,8 @@ GitHub: https://github.com/YujiSODE/nDRandom
 >This software is released under the MIT License.  
 >See LICENSE or http://opensource.org/licenses/mit-license.php  
 ______
+<img width=300 src="conceptIMG_nDRandom.png" alt="conceptIMG_nDRandom">
+
 ## 1. Description
 `nDRandom` is a tool that outputs a random coordinates generator in n-th dimensions.  
 The generated script is output in the current directory.  
@@ -42,10 +44,7 @@ The generated script is output in the current directory.
   - `$double`: a real number in range `(0.0, 1.0)`
   - output coordinates: `{x1 dx1 x2 dx2 ... xn dxn}` where `Xi = xi+c*dxi` and `c` is a constant
 
-## 2. Concept
-<img width=300 src="conceptIMG_nDRandom.png" alt="conceptIMG_nDRandom">
-
-## 3. [Algorithm](algorithm.md)
+## 2. [Algorithm](algorithm.md)
 To obtain random coordinates from a given space in `n`-th dimensions.  
 Let variable elements be _`E`_`= (`_`e`_<sub>`0`</sub>`,`_`e`_<sub>`1`</sub>`,...,`_`e`_*<sub>`n`</sub>*`)` where _`i`_`=0,...,`_`n`_.  
 A range of a variable element `e`<sub>_`i`_</sub> is divided into _`d`_<sub>_`i`_</sub> intervals.  
@@ -58,7 +57,7 @@ where _`c`_*<sub>`j`</sub>* is constant,
 _`x`_<sub>`0`</sub>`=`_`e`_*<sub>`j`</sub>*`[`_`IDX`_*<sub>`j`</sub>*`]`  
 and _`dx`_`=(`_`e`_*<sub>`j`</sub>*<sup>`max`</sup>`-`_`e`_*<sub>`j`</sub>*<sup>`min`</sup>`)/`_`d`_*<sub>`j`</sub>*.
 
-## 4. Scripts
+## 3. Scripts
 It requires Tcl 8.6+.
 ### main script
 - [`nDRandom.tcl`](nDRandom.tcl): main script
@@ -66,5 +65,5 @@ It requires Tcl 8.6+.
 ### modules
 - [`ndrandomOutput_tcl.tcl`](ndrandomOutput_tcl.tcl): module to output as Tcl file
 
-## 5. Library list
+## 4. Library list
 - Sode, Y. 2018. lSum_min.tcl: https://gist.github.com/YujiSODE/1f9a4e2729212691972b196a76ba9bd0
