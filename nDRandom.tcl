@@ -31,7 +31,7 @@
 #
 # #################################
 # #--- available keyword for $option ---
-# #{tcl}
+# #"tcl": Tcl, "js": JavaScript
 # #################################
 #
 #=== generated script ===
@@ -69,7 +69,7 @@
 #   	- $option: an optional keyword, and default value is "tcl"
 #	#################################
 #	#--- available keyword for $option ---
-#	#{tcl}
+#	#"tcl": Tcl, "js": JavaScript
 #	#################################
 #--------------------------------------------------------------------
 #
@@ -248,7 +248,7 @@ proc ::nDRandom::output {name {option tcl}} {
 	# - $option: an optional keyword to determine output type, and default value is "tcl"
 	#################################
 	#--- available keyword for $option ---
-	#{tcl}
+	#"tcl": Tcl, "js": JavaScript
 	#################################
 	###
 	#
@@ -266,7 +266,7 @@ proc ::nDRandom::output {name {option tcl}} {
 #   	- $option: a keyword to determine output type
 #	- $min1, $max1 and $division1: data range
 #	- $min2, $max2 and $division2 (, ..., $minN, $maxN and $divisionN): optional data ranges
-#   	  - $dividsion: number of divided ranges that are not less than 2
+#   	  - $division: number of divided ranges that are not less than 2
 ###
 #
 #--- arguments ---
