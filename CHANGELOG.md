@@ -3,6 +3,10 @@
 
 ## [0.11 beta] - 2021-07-24
 ## Changed
+- [`README.md`] lines 30-32:  
+  >`     keyword: output type`  
+  >`    tcl: Tcl`  
+  >`    js: JavaScript`
 - [`nDRandom.tcl`] line 251:  
   >` 	#"tcl": Tcl, "js": JavaScript`
 - [`nDRandom.tcl`] line 72:  

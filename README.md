@@ -27,7 +27,9 @@ ______
   - `$option`: an optional keyword to determine output type, and default value is `tcl`
 
 ### Available keyword for `$option`
-    tcl
+    keyword: output type
+    tcl: Tcl
+    js: JavaScript
 
 ### Generated script
 The generated script is output in the current directory.
