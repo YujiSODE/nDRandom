@@ -27,7 +27,7 @@ ______
   - `$option`: an optional keyword to determine output type, and default value is `tcl`
 
 ### Available keyword for `$option`
-    keyword: output type (language etc.)
+    keyword: output type
     tcl: Tcl
     js: JavaScript
 
