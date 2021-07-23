@@ -3,13 +3,15 @@
 
 ## [0.11 beta] - 2021-07-23
 ## Changed
+- [`sample02/sample02.tcl`] line 1:  
+  >` #timestamp:Fri Jul 23 16:29:30 JST 2021`
 - [`sample01/sample01.tcl`] line 13:  
   >` 	unset u idx block;return $result;`
 - [`sample01/sample01.tcl`] line 1:  
   >` #timestamp:Fri Jul 23 16:28:35 JST 2021`
 - [`ndrandomOutput_tcl.tcl`] line 130:  
   >` 			puts -nonewline $c "\n\tunset u idx block\;";`
-
+sample02/sample02.tcl
 ## [0.11 beta] - 2021-07-22
 ## Removed
 - [`README.md`] lines 12-19
