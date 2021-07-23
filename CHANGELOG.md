@@ -2,6 +2,9 @@
 ## [Unreleased]
 
 ## [0.11 beta] - 2021-07-23
+## Added
+- [`ndrandomOutput_js.tcl`]: module to output as JavaScript file
+
 ## Changed
 - [`sample02/sample02.tcl`] line 19:  
   >` 	unset u idx block;return $result;`
