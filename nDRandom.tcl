@@ -115,7 +115,7 @@ namespace eval ::nDRandom {
 #number of preset data is returned
 proc ::nDRandom::setRange {min max division} {
 	# - $min and $max: minimum and maximum values
-	# - $dividion: number of divided ranges that are not less than 2
+	# - $division: number of divided ranges that are not less than 2
 	#
 	variable ::nDRandom::N;variable ::nDRandom::ID_LIST;variable ::nDRandom::DATA;
 	###
@@ -266,7 +266,7 @@ proc ::nDRandom::output {name {option tcl}} {
 #   	- $option: a keyword to determine output type
 #	- $min1, $max1 and $division1: data range
 #	- $min2, $max2 and $division2 (, ..., $minN, $maxN and $divisionN): optional data ranges
-#   	  - $dividion: number of divided ranges that are not less than 2
+#   	  - $division: number of divided ranges that are not less than 2
 ###
 #
 #--- arguments ---
