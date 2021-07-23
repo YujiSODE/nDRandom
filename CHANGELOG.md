@@ -3,6 +3,8 @@
 
 ## [0.11 beta] - 2021-07-23
 ## Changed
+- [`sample02/sample02.tcl`] line 19:  
+  >` 	unset u idx block;return $result;`
 - [`sample02/sample02.tcl`] line 1:  
   >` #timestamp:Fri Jul 23 16:29:30 JST 2021`
 - [`sample01/sample01.tcl`] line 13:  
