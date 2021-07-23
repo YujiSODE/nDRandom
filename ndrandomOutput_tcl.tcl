@@ -127,7 +127,7 @@ proc ::nDRandom::output\$ {NAME} {
 				incr i 1;
 			};
 			#
-			puts -nonewline $c "\n\tunset idx block\;";
+			puts -nonewline $c "\n\tunset u idx block\;";
 			puts -nonewline $c "return \$result\;";
 			#
 		puts -nonewline $c "\n\}\;";
