@@ -1,4 +1,4 @@
-#timestamp:Wed Jul 21 13:19:07 JST 2021
+#timestamp:Fri Jul 23 16:29:30 JST 2021
 #ID MIN MAX divisions dx
 #x1 0 100 1000 0.1
 #x2 0 100 1000 0.1
@@ -16,5 +16,5 @@ proc ::tcl::mathfunc::sample02_random {double} {
 	set idx [expr {$u%1000}];set block [expr {int(ceil($u/1000.0))}];lappend result [expr {0.0+0.1*$idx}];lappend result 0.1;
 	set idx [expr {$block%1000}];set block [expr {int(ceil($u/1000000.0))}];lappend result [expr {0.0+0.1*$idx}];lappend result 0.1;
 	set idx [expr {$block%1000}];set block [expr {int(ceil($u/1000000000.0))}];lappend result [expr {0.0+0.1*$idx}];lappend result 0.1;
-	unset idx block;return $result;
+	unset u idx block;return $result;
 };
