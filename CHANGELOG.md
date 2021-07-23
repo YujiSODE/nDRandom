@@ -3,8 +3,12 @@
 
 ## [0.11 beta] - 2021-07-24
 ## Changed
+- [`nDRandom.tcl`] line 251:  
+  >` 	#"tcl": Tcl, "js": JavaScript`
+- [`nDRandom.tcl`] line 72:  
+  >`#	#"tcl": Tcl, "js": JavaScript`
 - [`nDRandom.tcl`] line 34:  
-  >` # #"tcl": Tcl, "js": JavaScript`
+  >`# #"tcl": Tcl, "js": JavaScript`
 
 ## [0.11 beta] - 2021-07-23
 ## Added
