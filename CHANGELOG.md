@@ -1,6 +1,11 @@
 # Change Log 
 ## [Unreleased]
 
+## [0.11 beta] - 2021-07-23
+## Changed
+- [`ndrandomOutput_tcl.tcl`] line 130:  
+  >` 			puts -nonewline $c "\n\tunset u idx block\;";`
+ 			puts -nonewline $c "\n\tunset u idx block\;";
 ## [0.11 beta] - 2021-07-22
 ## Removed
 - [`README.md`] lines 12-19
