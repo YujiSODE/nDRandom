@@ -26,7 +26,7 @@
 #
 #   	- $min and $max: minimum and maximum values
 #   	- $division: number of divided ranges that are not less than 2
-#   	- $name: a keyword to detsrmine output file and its functions
+#   	- $name: a keyword to determine output file and its functions
 #   	- $option: an optional keyword to determine output type, and default value is "tcl"
 #
 # #################################
