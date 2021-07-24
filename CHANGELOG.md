@@ -2,6 +2,11 @@
 ## [Unreleased]
 
 ## [0.11 beta] - 2021-07-24
+## Added
+- [`README.md`] line 62:  
+  >`- [`ndrandomOutput_js.tcl`](ndrandomOutput_js.tcl): module to output as JavaScript file`
+
+## [0.11 beta] - 2021-07-24
 ## Changed
 - [`README.md`] lines 30-32:  
   >`     keyword: output type`  
