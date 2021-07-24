@@ -59,6 +59,7 @@ It requires Tcl 8.6+.
 
 ### modules
 - [`ndrandomOutput_tcl.tcl`](ndrandomOutput_tcl.tcl): module to output as Tcl file
+- [`ndrandomOutput_js.tcl`](ndrandomOutput_js.tcl): module to output as JavaScript file
 
 ## 4. Library list
 - Sode, Y. 2018. lSum_min.tcl: https://gist.github.com/YujiSODE/1f9a4e2729212691972b196a76ba9bd0
