@@ -1,6 +1,12 @@
 # Change Log 
 ## [Unreleased]
 
+## [1.0] - 2021-07-25
+## Removed
+- [`nDRandom.tcl`] lines 4-5:  
+  >` # idea by Yuji Sode on [2021-05-28 to 2021-05-31] `  
+  >`#`
+
 ## Released: [0.11 beta] - 2021-07-24
 ## [0.11 beta] - 2021-07-24
 ## Added
