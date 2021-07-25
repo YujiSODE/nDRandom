@@ -1,8 +1,6 @@
 #nDRandom
 #nDRandom.tcl
 #
-# idea by Yuji Sode on [2021-05-28 to 2021-05-31] 
-#
 ##===================================================================
 #	Copyright (c) 2021 Yuji SODE <yuji.sode@gmail.com>
 #
