@@ -2,6 +2,14 @@
 ## [Unreleased]
 
 ## [1.0] - 2021-07-25
+## Added
+- web sample
+  - [`sample_web/ndrandom_sampleWeb.tcl`]
+  - [`sample_web/ndrandom_web.html`]
+  - [`sample_web/ndrandom_webScript.js`]
+  - [`sample_web/ndrandom_web_style.css`]
+  - [`sample_web/sampleWeb.js`]
+
 ## Removed
 - [`nDRandom.tcl`] lines 4-5:  
   >` # idea by Yuji Sode on [2021-05-28 to 2021-05-31] `  
