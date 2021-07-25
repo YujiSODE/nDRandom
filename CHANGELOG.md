@@ -3,6 +3,9 @@
 
 ## [1.0] - 2021-07-25
 ## Added
+- [`sample_web/ndrandom_sampleWeb.tcl`]
+- [`sample_web/ndrandom_web.html`]
+- [`sample_web/ndrandom_webScript.js`]
 - [`sample_web/ndrandom_web_style.css`]
 - [`sample_web/sampleWeb.js`]
 
