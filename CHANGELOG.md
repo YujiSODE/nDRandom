@@ -1,6 +1,18 @@
 # Change Log 
 ## [Unreleased]
 
+## [1.0] - 2021-07-26
+## Changed
+- [`sample_web/ndrandom_webScript.js`] lines 19 and 20:  
+  `		//Rs[0] -> x1: relative x coordinate`  
+  `		//Rs[2] -> x2: relative y coordinate`
+
+- [`sample_web/ndrandom_web_style.css`] lines 3-6:  
+  `	border:1px solid #fff;`  
+  `	width:30vw;`  
+  `	height:30vw;`  
+  `	background:#000;`
+
 ## [1.0] - 2021-07-25
 ## Added
 - web sample
