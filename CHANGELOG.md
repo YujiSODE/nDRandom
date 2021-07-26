@@ -2,6 +2,10 @@
 ## [Unreleased]
 
 ## [1.0] - 2021-07-26
+## Changed
+- [`sample_web/ndrandom_web.html`] line 29:  
+  `			<br>Random values: <code><i><b>X</b></i> = (<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, ... , <i>x</i><sub>7</sub>)</code>`
+
 ## Added
 - [`sample_web/index.html`]: based on `sample_web/ndrandom_web.html`
 
