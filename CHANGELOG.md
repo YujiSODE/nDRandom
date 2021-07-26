@@ -1,6 +1,36 @@
 # Change Log 
 ## [Unreleased]
 
+## [1.0] - 2021-07-26
+## Added
+- [`sample_web/index.html`]: based on `sample_web/ndrandom_web.html`
+
+## Changed
+- [`sample_web/ndrandom_web.html`] lines 26-38:  
+  `		<canvas id='ndrandomCvs'></canvas>`  
+  `		<!-- -->`  
+  `		<pre>`  
+  `			<br>Random values: <code><i>U</i> = (<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, ... , <i>x</i><sub>7</sub>)</code>`  
+  `			<br><code><i>x</i><sub>1</sub>: relative x coordinate</code>`  
+  `			<br><code><i>x</i><sub>2</sub>: relative y coordinate</code>`  
+  `			<br><code><i>x</i><sub>3</sub>: relative width</code>`  
+  `			<br><code><i>x</i><sub>4</sub>: relative height</code>`  
+  `			<br><code><i>x</i><sub>5</sub>: R value of RGB color</code>`  
+  `			<br><code><i>x</i><sub>6</sub>: G value of RGB color</code>`  
+  `			<br><code><i>x</i><sub>7</sub>: B value of RGB color</code><br>`  
+  `		</pre>`  
+  `		<!-- -->`
+
+- [`sample_web/ndrandom_webScript.js`] lines 19 and 20:  
+  `		//Rs[0] -> x1: relative x coordinate`  
+  `		//Rs[2] -> x2: relative y coordinate`
+
+- [`sample_web/ndrandom_web_style.css`] lines 3-6:  
+  `	border:1px solid #fff;`  
+  `	width:30vw;`  
+  `	height:30vw;`  
+  `	background:#000;`
+
 ## [1.0] - 2021-07-25
 ## Added
 - web sample

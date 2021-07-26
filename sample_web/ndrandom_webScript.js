@@ -16,8 +16,8 @@
 			x0=0.0,y0=0.0,w=1.0,h=1.0;
 		//
 		//Rs: [x1 dx1 x2 dx2 ... x7 dx7] where Xi = xi+c*dxi and c is a constant
-		//Rs[0] -> x1: relative x
-		//Rs[2] -> x2: relative y
+		//Rs[0] -> x1: relative x coordinate
+		//Rs[2] -> x2: relative y coordinate
 		//Rs[4] -> x3: relative width
 		//Rs[6] -> x4: relative height
 		//Rs[8] -> x5: R value of RGB color
