@@ -2,6 +2,9 @@
 ## [Unreleased]
 
 ## [1.0] - 2021-07-26
+## Added
+- [`sample_web/index.html`]: based on `sample_web/ndrandom_web.html`
+
 ## Changed
 - [`sample_web/ndrandom_web.html`] lines 26-38:  
   `		<canvas id='ndrandomCvs'></canvas>`  
