@@ -1,6 +1,12 @@
 # Change Log 
 ## [Unreleased]
 
+
+## [1.0] - 2021-07-27
+## Changed
+- [`README.md`] line 44:  
+  ` Let variable elements be _**`E`**_`= (`_`e`_<sub>`0`</sub>`,`_`e`_<sub>`1`</sub>`,...,`_`e`_*<sub>`n`</sub>*`)` where _`i`_`=0,...,`_`n`_.  `
+
 ## [1.0] - 2021-07-26
 ## Changed
 - [`sample_web/index.html`] line 29:  
