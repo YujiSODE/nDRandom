@@ -3,6 +3,12 @@
 
 
 ## [1.0] - 2021-07-27
+## Fixed
+- [`algorithm.md`] line 32:  
+  ` ### III.`
+- [`algorithm.md`] line 15:  
+  ` _**`IDX`**_`=(`_`IDX`_<sub>`0`</sub>`,`_`IDX`_<sub>`1`</sub>`,...,`_`IDX`_*<sub>`n`</sub>*`)`.  `
+
 ## Removed
 - [`algorithm.md`] lines 9-13
 
