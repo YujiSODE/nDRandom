@@ -12,7 +12,7 @@ A probability to pick up a prespecified point in a cell is also _`p`_*<sub>`i`</
 
 ### II.
 Let indices correspond to a specified intervals in divided elements as follows:  
-_`IDX`_`=(`_`IDX`_<sub>`0`</sub>`,`_`IDX`_<sub>`1`</sub>`,...,`_`IDX`_*<sub>`n`</sub>*`)`.  
+_**`IDX`**_`=(`_`IDX`_<sub>`0`</sub>`,`_`IDX`_<sub>`1`</sub>`,...,`_`IDX`_*<sub>`n`</sub>*`)`.  
 Let _`idx`_ be in range `[0, ∏(`_`d`_*<sub>`i`</sub>*`)-1]`.
 
 #### _`e`_*<sub>`i`</sub>*`=`_`e`_<sub>`0`</sub>
@@ -29,7 +29,7 @@ _`block`_<sub>`1`</sub>`=ceil(`_`idx`_`/(`_`d`_<sub>`0`</sub>`*`_`d`_<sub>`1`</s
 _`IDX`_*<sub>`j`</sub>*`=`_`block`_<sub>_`j`_`-1`</sub>`%`_`d`_*<sub>`j`</sub>*,  
 _`block`_*<sub>`j`</sub>*`=ceil(`_`idx`_`/∏(`_`d`_*<sub>`i`</sub>*`): `_`i`_`= 0 to `_`j`_`)`.
 
-#### III.
+### III.
 A coordinate element value can be estimated as follows:  
 _`e`_<sub>*`j`*</sub>`=`_`x`_<sub>`0`</sub>`+`_`c`_*<sub>`j`</sub>*`*`_`dx`_,  
 where _`c`_*<sub>`j`</sub>* is constant,  
