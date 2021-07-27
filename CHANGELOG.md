@@ -3,7 +3,7 @@
 
 
 ## [1.0] - 2021-07-27
-## Changed
+## Fixed
 - [`README.md`] line 47:  
   ` _**`IDX`**_`=(`_`IDX`_<sub>`0`</sub>`,`_`IDX`_<sub>`1`</sub>`,...,`_`IDX`_*<sub>`n`</sub>*`)`.  `
 - [`README.md`] line 44:  
