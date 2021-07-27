@@ -3,6 +3,9 @@
 
 
 ## [1.0] - 2021-07-27
+## Removed
+- [`algorithm.md`] lines 9-13
+
 ## Fixed
 - [`algorithm.md`] line 7:  
   ` Let variable elements be _**`E`**_`= (`_`e`_<sub>`0`</sub>`,`_`e`_<sub>`1`</sub>`,...,`_`e`_*<sub>`n`</sub>*`)` where _`i`_`=0,...,`_`n`_.  `
