@@ -1,11 +1,11 @@
 #ndrandom_sample02.tcl
 #=====================
 #
-#u=(A,B,C)
-#A=[0,100] and dA=1000
-#B=[0,100] and dB=1000
-#C=[0,100] and dC=1000
-#probability p=p(A<B&&C<B)
+#u = (A,B,C)
+#A = [0,100] and division = 1000
+#B = [0,100] and division = 1000
+#C = [0,100] and division = 1000
+#probability p = p(A<B&&C<B)
 #=====================
 #
 source -encoding utf-8 nDRandom.tcl;
