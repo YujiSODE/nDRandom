@@ -3,6 +3,7 @@
 
 ## [1.01] - 2021-08-06
 ## Fixed
+- [`sample01/ndrandom_sample01.tcl`] lines 4-6: comments
 - [`sample02/ndrandom_sample02.tcl`] lines 4-8: comments
 - [`sample_web/ndrandom_sampleWeb.tcl`] lines 5-6, 9-10 and 13-15: comments
 
