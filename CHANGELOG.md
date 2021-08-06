@@ -3,6 +3,7 @@
 
 ## [1.01] - 2021-08-06
 ## Fixed
+- [`sample_web/ndrandom_sampleWeb.tcl`] lines 5-6, 9-10 and 13-15: comments
 
 ## Released: [1.0] - 2021-07-27
 ## [1.0] - 2021-07-27
