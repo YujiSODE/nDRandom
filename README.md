@@ -7,6 +7,10 @@ GitHub: https://github.com/YujiSODE/nDRandom
 ______
 <img width=300 src="conceptIMG_nDRandom.png" alt="conceptIMG_nDRandom">
 
+- It can generates a random coordinates in n-th dimensions employing a single random numbers.
+- Generated elements in random coordinate may show spurious correlation, but they have no correlation with each other.
+- Generated elements are not cryptographically secure.
+
 ## 1. Description
 `nDRandom` is a tool that outputs a random coordinates generator in n-th dimensions.  
 

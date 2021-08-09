@@ -1,6 +1,19 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [1.01] - 2021-08-09
+## [1.01] - 2021-08-06
+## Added
+- [`README.md`] lines 10-13:  
+  ` - It can generates a random coordinates in n-th dimensions employing a single random numbers.`  
+  ` - Generated elements in random coordinate may show spurious correlation, but they have no correlation with each other.`  
+  ` - Generated elements are not cryptographically secure.`
+
+## Fixed
+- [`sample01/ndrandom_sample01.tcl`] lines 4-6: comments
+- [`sample02/ndrandom_sample02.tcl`] lines 4-8: comments
+- [`sample_web/ndrandom_sampleWeb.tcl`] lines 5-6, 9-10 and 13-15: comments
+
 ## Released: [1.0] - 2021-07-27
 ## [1.0] - 2021-07-27
 ## Fixed
