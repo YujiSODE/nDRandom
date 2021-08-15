@@ -2,6 +2,9 @@
 ## [Unreleased]
 
 ## [1.1 beta] - 2021-08-15
+## Changed
+- [`sample_web/ndrandom_web_style.css`]: a line moved from 6 to 4  
+
 ## Added
 - [`sample_web/ndrandom_web_style.css`] lines 7-11:  
   ` }`  
