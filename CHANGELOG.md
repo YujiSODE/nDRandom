@@ -3,6 +3,7 @@
 
 ## [1.1 beta] - 2021-08-15
 ## Changed
+- [`sample_web/index.html`] lines 26-42: copied from `sample_web/ndrandom_web.html`
 - [`sample_web/ndrandom_web.html`] lines 26-42: added `figure` tag, `figcaption` tag and figure title
 - [`sample_web/ndrandom_webScript.js`] lines 40-41:  
   `	//`  
