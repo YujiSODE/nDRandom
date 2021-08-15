@@ -1,7 +1,12 @@
 /*ndrandom_sampleWeb_style.css*/
 canvas{
 	border:1px solid #fff;
+	background:#000;
 	width:30vw;
 	height:30vw;
-	background:#000;
+}
+figure{
+	border:2px solid #f00;
+	background:#eee;
+	width:30vw;
 }

@@ -1,6 +1,29 @@
 # Change Log 
 ## [Unreleased]
 
+## [1.1 beta] - 2021-08-15
+## Changed
+- [`sample_web/index.html`] lines 26-42: copied from `sample_web/ndrandom_web.html`
+- [`sample_web/ndrandom_web.html`] lines 26-42: added `figure` tag, `figcaption` tag and figure title
+- [`sample_web/ndrandom_webScript.js`] lines 40-41:  
+  `	//`  
+  `	tId=setInterval(()=>{F1();},delay);`
+- [`sample_web/ndrandom_webScript.js`] lines 11-15:  
+  `	let F1=()=>{},tId=0;`  
+  `	//`  
+  `	//"Random Rectangles"`  
+  `	//F1 is function to draw a rectangle area on the canvas tag`  
+  `	F1=()=>{`
+- [`sample_web/ndrandom_web_style.css`]: a line moved from 6 to 4  
+
+## Added
+- [`sample_web/ndrandom_web_style.css`] lines 7-11:  
+  ` }`  
+  `figure{`  
+  `	border:2px solid #f00;`  
+  `	background:#eee;`  
+  `	width:30vw;`
+
 ## Released: [1.01] - 2021-08-09
 ## [1.01] - 2021-08-06
 ## Added
