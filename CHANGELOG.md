@@ -3,13 +3,15 @@
 
 ## [1.1 beta] - 2021-08-15
 ## Changed
+- [`sample_web/ndrandom_webScript.js`] lines 40-41:  
+  `	//`  
+  `	tId=setInterval(()=>{F1();},delay);`
 - [`sample_web/ndrandom_webScript.js`] lines 11-15:  
   `	let F1=()=>{},tId=0;`  
   `	//`  
   `	//"Random Rectangles"`  
   `	//F1 is function to draw a rectangle area on the canvas tag`  
   `	F1=()=>{`
-
 - [`sample_web/ndrandom_web_style.css`]: a line moved from 6 to 4  
 
 ## Added
