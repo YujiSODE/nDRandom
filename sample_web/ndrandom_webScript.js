@@ -8,9 +8,11 @@
 *===================================================================
 */
 ((delay)=>{
-	let F=()=>{},tId=0;
-	//F is function to draw a rectangle area on the canvas tag
-	F=()=>{
+	let F1=()=>{},tId=0;
+	//
+	//"Random Rectangles"
+	//F1 is function to draw a rectangle area on the canvas tag
+	F1=()=>{
 		let slf=window.document,C=slf.getElementById('ndrandomCvs'),ctx=C.getContext('2d'),
 			Rs=Math.sampleWeb_random(Math.random()),canvasW=C.width,canvasH=C.height,
 			x0=0.0,y0=0.0,w=1.0,h=1.0;
@@ -35,5 +37,6 @@
 		//
 		slf=C=ctx=Rs=canvasW=canvasH=x0=y0=w=h=null;
 	};
-	tId=setInterval(F,delay);
+	//
+	tId=setInterval(()=>{F1();},delay);
 })(400);
