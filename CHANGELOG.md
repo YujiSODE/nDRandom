@@ -3,6 +3,12 @@
 
 ## [1.1 beta] - 2021-08-15
 ## Added
+- [`sample_web/ndrandom_web_style.css`] lines 7-11:  
+  ` }`  
+  `figure{`  
+  `	border:2px solid #f00;`  
+  `	background:#eee;`  
+  `	width:30vw;`
 
 ## Released: [1.01] - 2021-08-09
 ## [1.01] - 2021-08-06
