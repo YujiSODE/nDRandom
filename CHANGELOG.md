@@ -3,6 +3,10 @@
 
 ## [1.1 beta] - 2021-08-16
 ## Changed
+- [`sample_web/ndrandom_webScript.js`] line 42:  
+  `	//------------`
+- [`sample_web/ndrandom_webScript.js`] line 35:  
+  `		//++++++++++++`
 - [`sample_web/ndrandom_webScript.js`] lines 11 and 12:  
   `	let F1=()=>{},F2=()=>{},tId=0;`  
   `	//------------`
