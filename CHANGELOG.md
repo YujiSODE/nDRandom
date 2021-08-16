@@ -12,6 +12,8 @@
   `	//------------`
 
 ## Added
+- [`sample_web/ndrandom_web.html`] line 21:  
+  `		<script type='text/javascript' src='sampleWeb2.js'></script>`
 - [`sample_web/ndrandom_web.html`] lines 43-53: a new `canvas` tag was added to draw a triangular planes
 - [`sample_web/ndrandom_webScript.js`] lines 44-113: a new function `F2()` was added to draw a triangular plane on the `canvas` tag
 - [`sample_web/ndrandom_sampleWeb2.tcl`]
