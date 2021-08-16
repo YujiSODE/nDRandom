@@ -3,6 +3,8 @@
 
 ## [1.1 beta] - 2021-08-16
 ## Changed
+- [`sample_web/ndrandom_web.html`] line 25:  
+  `		<p>Tool that outputs a random coordinates generator in n-th dimensions.<br>This program is web sample version of <a href='https://github.com/YujiSODE/nDRandom'>nDRandom</a>.</p>`
 - [`sample_web/ndrandom_webScript.js`] line 42:  
   `	//------------`
 - [`sample_web/ndrandom_webScript.js`] line 35:  
