@@ -1,6 +1,27 @@
 # Change Log 
 ## [Unreleased]
 
+## [1.1 beta] - 2021-08-16
+## Changed
+- [`sample_web/index.html`]: copied from `sample_web/ndrandom_web.html`
+- [`sample_web/ndrandom_web.html`] line 25:  
+  `		<p>Tool that outputs a random coordinates generator in n-th dimensions.<br>This program is web sample version of <a href='https://github.com/YujiSODE/nDRandom'>nDRandom</a>.</p>`
+- [`sample_web/ndrandom_webScript.js`] line 42:  
+  `	//------------`
+- [`sample_web/ndrandom_webScript.js`] line 35:  
+  `		//++++++++++++`
+- [`sample_web/ndrandom_webScript.js`] lines 11 and 12:  
+  `	let F1=()=>{},F2=()=>{},tId=0;`  
+  `	//------------`
+
+## Added
+- [`sample_web/ndrandom_web.html`] line 21:  
+  `		<script type='text/javascript' src='sampleWeb2.js'></script>`
+- [`sample_web/ndrandom_web.html`] lines 43-53: a new `canvas` tag was added to draw a triangular planes
+- [`sample_web/ndrandom_webScript.js`] lines 44-113: a new function `F2()` was added to draw a triangular plane on the `canvas` tag
+- [`sample_web/ndrandom_sampleWeb2.tcl`]
+- [`sample_web/sampleWeb2.js`]
+
 ## [1.1 beta] - 2021-08-15
 ## Changed
 - [`sample_web/index.html`] lines 26-42: copied from `sample_web/ndrandom_web.html`
