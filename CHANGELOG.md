@@ -1,6 +1,11 @@
 # Change Log 
 ## [Unreleased]
 
+## [1.1 beta] - 2021-08-16
+## Added
+- [`sample_web/ndrandom_sampleWeb2.tcl`]
+- [`sample_web/sampleWeb2.js`]
+
 ## [1.1 beta] - 2021-08-15
 ## Changed
 - [`sample_web/index.html`] lines 26-42: copied from `sample_web/ndrandom_web.html`
