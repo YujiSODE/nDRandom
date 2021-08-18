@@ -1,6 +1,24 @@
 # Change Log 
 ## [Unreleased]
 
+## [1.1 beta] - 2021-08-18
+## Changed
+- [`sample_web/index.html`]: copied from `sample_web/ndrandom_web.html`
+
+## Added
+- [`sample_web/ndrandom_web.html`] lines 49-63: added description for random values
+
+## Changed
+- [`sample_web/ndrandom_webScript.js`] lines 80 and 81:  
+  `		X3=x0+canvasW*(Rs[8]+Rs[9]*0.3)*Math.cos(Rs[14]+Rs[15]*0.3)*0.1;`  
+  `		Y3=y0+canvasH*(Rs[8]+Rs[9]*0.3)*Math.sin(Rs[14]+Rs[15]*0.3)*0.1;`
+- [`sample_web/ndrandom_webScript.js`] lines 76 and 77:  
+  `		X2=x0+canvasW*(Rs[6]+Rs[7]*0.3)*Math.cos(Rs[12]+Rs[13]*0.3)*0.1;`  
+  `		Y2=y0+canvasH*(Rs[6]+Rs[7]*0.3)*Math.sin(Rs[12]+Rs[13]*0.3)*0.1;`
+- [`sample_web/ndrandom_webScript.js`] lines 72 and 73:  
+  `		X1=x0+canvasW*(Rs[4]+Rs[5]*0.3)*Math.cos(Rs[10]+Rs[11]*0.3)*0.1;`  
+  `		Y1=y0+canvasH*(Rs[4]+Rs[5]*0.3)*Math.sin(Rs[10]+Rs[11]*0.3)*0.1;`
+
 ## [1.1 beta] - 2021-08-16
 ## Changed
 - [`sample_web/index.html`]: copied from `sample_web/ndrandom_web.html`

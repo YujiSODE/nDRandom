@@ -69,16 +69,16 @@
 		y0=canvasH*(Rs[2]+Rs[3]*0.3);
 		//
 		//P1 = (X1,Y1)
-		X1=x0+canvasW*(Rs[4]+Rs[5]*0.3)*Math.cos(Rs[10]+Rs[11]*0.3)*0.25;
-		Y1=y0+canvasH*(Rs[4]+Rs[5]*0.3)*Math.sin(Rs[10]+Rs[11]*0.3)*0.25;
+		X1=x0+canvasW*(Rs[4]+Rs[5]*0.3)*Math.cos(Rs[10]+Rs[11]*0.3)*0.1;
+		Y1=y0+canvasH*(Rs[4]+Rs[5]*0.3)*Math.sin(Rs[10]+Rs[11]*0.3)*0.1;
 		//
 		//P2 = (X2,Y2)
-		X2=x0+canvasW*(Rs[6]+Rs[7]*0.3)*Math.cos(Rs[12]+Rs[13]*0.3)*0.25;
-		Y2=y0+canvasH*(Rs[6]+Rs[7]*0.3)*Math.sin(Rs[12]+Rs[13]*0.3)*0.25;
+		X2=x0+canvasW*(Rs[6]+Rs[7]*0.3)*Math.cos(Rs[12]+Rs[13]*0.3)*0.1;
+		Y2=y0+canvasH*(Rs[6]+Rs[7]*0.3)*Math.sin(Rs[12]+Rs[13]*0.3)*0.1;
 		//
 		//P3 = (X3,Y3)
-		X3=x0+canvasW*(Rs[8]+Rs[9]*0.3)*Math.cos(Rs[14]+Rs[15]*0.3)*0.25;
-		Y3=y0+canvasH*(Rs[8]+Rs[9]*0.3)*Math.sin(Rs[14]+Rs[15]*0.3)*0.25;
+		X3=x0+canvasW*(Rs[8]+Rs[9]*0.3)*Math.cos(Rs[14]+Rs[15]*0.3)*0.1;
+		Y3=y0+canvasH*(Rs[8]+Rs[9]*0.3)*Math.sin(Rs[14]+Rs[15]*0.3)*0.1;
 		//
 		//++++++++++++
 		ctx.fillStyle=`rgb(${Math.floor(Rs[16])},${Math.floor(Rs[18])},${Math.floor(Rs[20])})`;
