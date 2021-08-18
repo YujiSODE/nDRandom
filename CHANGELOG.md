@@ -2,6 +2,9 @@
 ## [Unreleased]
 
 ## [1.1 beta] - 2021-08-18
+## Added
+- [`sample_web/ndrandom_web.html`] lines 49-63: added description for random values
+
 ## Changed
 - [`sample_web/ndrandom_webScript.js`] lines 80 and 81:  
   `		X3=x0+canvasW*(Rs[8]+Rs[9]*0.3)*Math.cos(Rs[14]+Rs[15]*0.3)*0.1;`  
