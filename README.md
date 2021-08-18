@@ -1,7 +1,7 @@
 # nDRandom
 Tool that outputs a random coordinates generator in n-th dimensions  
 GitHub: https://github.com/YujiSODE/nDRandom  
->Copyright (c) 2020 Yuji SODE \<yuji.sode@gmail.com\>  
+>Copyright (c) 2021 Yuji SODE \<yuji.sode@gmail.com\>  
 >This software is released under the MIT License.  
 >See LICENSE or http://opensource.org/licenses/mit-license.php  
 ______
