@@ -1,6 +1,7 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [1.1 beta] - 2021-08-18
 ## [1.1 beta] - 2021-08-18
 ## Changed
 - [`sample_web/index.html`]: copied from `sample_web/ndrandom_web.html`
