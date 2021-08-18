@@ -18,23 +18,52 @@
 		<title>nDRandom_web</title>
 		<link rel='stylesheet' href='ndrandom_web_style.css'>
 		<script type='text/javascript' src='sampleWeb.js'></script>
+		<script type='text/javascript' src='sampleWeb2.js'></script>
 	</head>
 	<body>
 		<h1>nDRandom</h1>
-		<p>Tool that outputs a random coordinates generator in n-th dimensions.
-			<br>This program is web sample version of <a href='https://github.com/YujiSODE/nDRandom'>nDRandom</a>.</p>
-		<canvas id='ndrandomCvs'></canvas>
-		<!-- -->
-		<pre>
-			<br>Random values: <code><i><b>X</b></i> = (<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, ... , <i>x</i><sub>7</sub>)</code>
-			<br><code><i>x</i><sub>1</sub>: relative x coordinate</code>
-			<br><code><i>x</i><sub>2</sub>: relative y coordinate</code>
-			<br><code><i>x</i><sub>3</sub>: relative width</code>
-			<br><code><i>x</i><sub>4</sub>: relative height</code>
-			<br><code><i>x</i><sub>5</sub>: R value of RGB color</code>
-			<br><code><i>x</i><sub>6</sub>: G value of RGB color</code>
-			<br><code><i>x</i><sub>7</sub>: B value of RGB color</code><br>
-		</pre>
+		<p>Tool that outputs a random coordinates generator in n-th dimensions.<br>This program is web sample version of <a href='https://github.com/YujiSODE/nDRandom'>nDRandom</a>.</p>
+		<!-- Random Rectangles -->
+		<figure>
+			<canvas id='ndrandomCvs'></canvas>
+			<figcaption>
+				<h2>Random Rectangles</h2>
+				<pre>
+					<br>Random values: <code><i><b>X</b></i> = (<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, ... , <i>x</i><sub>7</sub>)</code>
+					<br><code><i>x</i><sub>1</sub>: relative x coordinate</code>
+					<br><code><i>x</i><sub>2</sub>: relative y coordinate</code>
+					<br><code><i>x</i><sub>3</sub>: relative width</code>
+					<br><code><i>x</i><sub>4</sub>: relative height</code>
+					<br><code><i>x</i><sub>5</sub>: R value of RGB color</code>
+					<br><code><i>x</i><sub>6</sub>: G value of RGB color</code>
+					<br><code><i>x</i><sub>7</sub>: B value of RGB color</code><br>
+				</pre>
+			</figcaption>
+		</figure>
+		<!-- Random Triangular Planes -->
+		<figure>
+			<canvas id='ndrandomCvs2'></canvas>
+			<figcaption>
+				<h2>Random Triangular Planes</h2>
+				<pre>
+					<br>Random values: <code><i><b>X</b></i> = (<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, ... , <i>x</i><sub>11</sub>)</code>
+					<br><code><i>x</i><sub>1</sub>: relative x coordinate of an origin</code>
+					<br><code><i>x</i><sub>2</sub>: relative y coordinate of an origin</code>
+					<!-- ################################################# -->
+					<br><code><i>x</i><sub>3</sub>: the first relative distance from the origin</code>
+					<br><code><i>x</i><sub>4</sub>: the second relative distance from the origin</code>
+					<br><code><i>x</i><sub>5</sub>: the third relative distance from the origin</code>
+					<!-- ################################################# -->
+					<br><code><i>x</i><sub>6</sub>: the first horizontal angle</code>
+					<br><code><i>x</i><sub>7</sub>: the second horizontal angle</code>
+					<br><code><i>x</i><sub>8</sub>: the third horizontal angle</code>
+					<!-- ################################################# -->
+					<br><code><i>x</i><sub>9</sub>: R value of RGB color</code>
+					<br><code><i>x</i><sub>10</sub>: G value of RGB color</code>
+					<br><code><i>x</i><sub>11</sub>: B value of RGB color</code><br>
+				</pre>
+			</figcaption>
+		</figure>
 		<!-- -->
  		<footer>
  			<p>Copyright (c) 2021 Yuji SODE</p>
