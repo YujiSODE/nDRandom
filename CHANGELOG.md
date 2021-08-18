@@ -2,6 +2,9 @@
 ## [Unreleased]
 
 ## [1.1 beta] - 2021-08-18
+## Changed
+- [`sample_web/index.html`]: copied from `sample_web/ndrandom_web.html`
+
 ## Added
 - [`sample_web/ndrandom_web.html`] lines 49-63: added description for random values
 
