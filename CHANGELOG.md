@@ -2,6 +2,10 @@
 ## [Unreleased]
 
 ## [1.2] - 2021-08-20
+## Changed
+- [`sample_web/index.html`]: copied from `sample_web/ndrandom_web.html`
+- [`sample_web/ndrandom_web.html`] lines 26-68: added `<div class='samples>` ... `</div>` to apply CSS
+
 ## Added
 - [`sample_web/ndrandom_web_style.css`] lines 14-17:  
   `.samples{`  
