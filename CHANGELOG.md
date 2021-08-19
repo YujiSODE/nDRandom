@@ -1,6 +1,12 @@
 # Change Log 
 ## [Unreleased]
 
+## [1.2] - 2021-08-20
+## Changed
+- [`sample_web/ndrandom_web_style.css`] lines 5 and 6:  
+  `	width:25vw;`  
+  `	height:25vw;`
+
 ## Released: [1.1 beta] - 2021-08-18
 ## [1.1 beta] - 2021-08-18
 ## Changed
