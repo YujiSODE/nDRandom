@@ -1,6 +1,25 @@
 # Change Log 
 ## [Unreleased]
 
+## [1.2] - 2021-08-20
+## Changed
+- [`sample_web/index.html`]: copied from `sample_web/ndrandom_web.html`
+- [`sample_web/ndrandom_web.html`] lines 26-68: added `<div class='samples>` ... `</div>` to apply CSS
+
+## Added
+- [`sample_web/ndrandom_web_style.css`] lines 14-17:  
+  `.samples{`  
+  `	display:grid;`  
+  `	grid-template-columns:30vw 30vw 30vw;`  
+  `}`
+- [`sample_web/ndrandom_web_style.css`] line 12:  
+  `	overflow:auto;`
+
+## Changed
+- [`sample_web/ndrandom_web_style.css`] lines 5 and 6:  
+  `	width:25vw;`  
+  `	height:25vw;`
+
 ## Released: [1.1 beta] - 2021-08-18
 ## [1.1 beta] - 2021-08-18
 ## Changed
