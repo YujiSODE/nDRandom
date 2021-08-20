@@ -4,6 +4,41 @@
 ## [1.2] - 2021-08-20
 ## Changed
 - [`sample_web/index.html`]: copied from `sample_web/ndrandom_web.html`
+
+## Added
+- [`sample_web/ndrandom_web.html`] lines 73-96: a new `canvas` tag was added to draw a single triangular plane
+
+## Changed
+- [`sample_web/ndrandom_web.html`] lines 26-30:  
+  `		<p>`  
+  `			Tool that outputs a random coordinates generator in n-th dimensions.`  
+  `			<br>This program is web sample version of <a href='https://github.com/YujiSODE/nDRandom'>nDRandom</a>.`  
+  `			<br>These samples are pieces of generative art.`  
+  `		</p>`
+- [`sample_web/ndrandom_web.html`] line 18:  
+  `		<meta name='description' content="Tool that outputs a random coordinates generator in n-th dimensions. This program is web sample version of nDRandom. These samples are pieces of generative art.">`
+
+## Added
+- [`sample_web/ndrandom_web.html`] line 14:  
+  `<!-- These samples are pieces of generative art. -->`
+
+## Changed
+- [`sample_web/ndrandom_webScript.js`] line 165:  
+  `	tId=setInterval(()=>{F1();F2();F3();},delay);`
+
+## Added
+- [`sample_web/ndrandom_webScript.js`] lines 98-162: a new function `F3()` was added to draw a sigle triangular plane on the `canvas` tag
+
+## Changed
+- [`sample_web/ndrandom_webScript.js`] line 94:  
+  `		ctx.fill();`
+- [`sample_web/ndrandom_webScript.js`] lines 88-99: removed
+- [`sample_web/ndrandom_webScript.js`] line 11:  
+  `	let F1=()=>{},F2=()=>{},F3=()=>{},tId=0;`
+
+## [1.2] - 2021-08-20
+## Changed
+- [`sample_web/index.html`]: copied from `sample_web/ndrandom_web.html`
 - [`sample_web/ndrandom_web.html`] lines 26-68: added `<div class='samples>` ... `</div>` to apply CSS
 
 ## Added
