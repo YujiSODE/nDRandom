@@ -3,6 +3,11 @@
 
 ## [1.2] - 2021-08-20
 ## Changed
+- [`sample_web/ndrandom_webScript.js`] line 11:  
+  `	let F1=()=>{},F2=()=>{},F3=()=>{},tId=0;`
+
+## [1.2] - 2021-08-20
+## Changed
 - [`sample_web/index.html`]: copied from `sample_web/ndrandom_web.html`
 - [`sample_web/ndrandom_web.html`] lines 26-68: added `<div class='samples>` ... `</div>` to apply CSS
 
