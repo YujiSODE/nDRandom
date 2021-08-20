@@ -2,7 +2,13 @@
 ## [Unreleased]
 
 ## [1.2] - 2021-08-20
+## Added
+- [`sample_web/ndrandom_webScript.js`] lines 98-162:
+
 ## Changed
+- [`sample_web/ndrandom_webScript.js`] line 94:  
+  `		ctx.fill();`
+- [`sample_web/ndrandom_webScript.js`] lines 88-99: removed
 - [`sample_web/ndrandom_webScript.js`] line 11:  
   `	let F1=()=>{},F2=()=>{},F3=()=>{},tId=0;`
 
