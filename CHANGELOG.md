@@ -2,6 +2,10 @@
 ## [Unreleased]
 
 ## [1.2] - 2021-08-20
+## Changed
+- [`sample_web/ndrandom_webScript.js`] line 165:  
+  `	tId=setInterval(()=>{F1();F2();F3();},delay);`
+
 ## Added
 - [`sample_web/ndrandom_webScript.js`] lines 98-162: a function to draw a sigle triangular plane on the canvas tag was added
 
