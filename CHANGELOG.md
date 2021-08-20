@@ -2,6 +2,9 @@
 ## [Unreleased]
 
 ## [1.2] - 2021-08-20
+## Changed
+- [`sample_web/index.html`]: copied from `sample_web/ndrandom_web.html`
+
 ## Added
 - [`sample_web/ndrandom_web.html`] lines 73-96: a new `canvas` tag was added to draw a single triangular plane
 
