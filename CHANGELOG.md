@@ -3,6 +3,14 @@
 
 ## [1.2] - 2021-08-20
 ## Changed
+- [`sample_web/ndrandom_webScript.js`] line 18:  
+  `		<meta name='description' content="Tool that outputs a random coordinates generator in n-th dimensions. This program is web sample version of nDRandom. These samples are pieces of generative art.">`
+
+## Added
+- [`sample_web/ndrandom_web.html`] line 14:  
+  `<!-- These samples are pieces of generative art. -->`
+
+## Changed
 - [`sample_web/ndrandom_webScript.js`] line 165:  
   `	tId=setInterval(()=>{F1();F2();F3();},delay);`
 
