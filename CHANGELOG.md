@@ -3,7 +3,7 @@
 
 ## [1.2] - 2021-08-20
 ## Added
-- [`sample_web/ndrandom_webScript.js`] lines 98-162:
+- [`sample_web/ndrandom_webScript.js`] lines 98-162: a function to draw a sigle triangular plane on the canvas tag was added
 
 ## Changed
 - [`sample_web/ndrandom_webScript.js`] line 94:  
