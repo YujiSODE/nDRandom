@@ -2,14 +2,17 @@
 ## [Unreleased]
 
 ## [1.2] - 2021-08-20
+## Added
+- [`sample_web/ndrandom_web.html`] lines 73-96: a new `canvas` tag was added to draw a single triangular plane
+
 ## Changed
-- [`sample_web/ndrandom_webScript.js`] lines 26-30:  
+- [`sample_web/ndrandom_web.html`] lines 26-30:  
   `		<p>`  
   `			Tool that outputs a random coordinates generator in n-th dimensions.`  
   `			<br>This program is web sample version of <a href='https://github.com/YujiSODE/nDRandom'>nDRandom</a>.`  
   `			<br>These samples are pieces of generative art.`  
   `		</p>`
-- [`sample_web/ndrandom_webScript.js`] line 18:  
+- [`sample_web/ndrandom_web.html`] line 18:  
   `		<meta name='description' content="Tool that outputs a random coordinates generator in n-th dimensions. This program is web sample version of nDRandom. These samples are pieces of generative art.">`
 
 ## Added
@@ -21,7 +24,7 @@
   `	tId=setInterval(()=>{F1();F2();F3();},delay);`
 
 ## Added
-- [`sample_web/ndrandom_webScript.js`] lines 98-162: a function to draw a sigle triangular plane on the canvas tag was added
+- [`sample_web/ndrandom_webScript.js`] lines 98-162: a new function `F3()` was added to draw a sigle triangular plane on the `canvas` tag
 
 ## Changed
 - [`sample_web/ndrandom_webScript.js`] line 94:  
