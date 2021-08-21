@@ -1,6 +1,124 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [1.2] - 2021-08-21
+## [1.2] - 2021-08-20
+## Changed
+- [`sample_web/index.html`]: copied from `sample_web/ndrandom_web.html`
+
+## Added
+- [`sample_web/ndrandom_web.html`] lines 73-96: a new `canvas` tag was added to draw a single triangular plane
+
+## Changed
+- [`sample_web/ndrandom_web.html`] lines 26-30:  
+  `		<p>`  
+  `			Tool that outputs a random coordinates generator in n-th dimensions.`  
+  `			<br>This program is web sample version of <a href='https://github.com/YujiSODE/nDRandom'>nDRandom</a>.`  
+  `			<br>These samples are pieces of generative art.`  
+  `		</p>`
+- [`sample_web/ndrandom_web.html`] line 18:  
+  `		<meta name='description' content="Tool that outputs a random coordinates generator in n-th dimensions. This program is web sample version of nDRandom. These samples are pieces of generative art.">`
+
+## Added
+- [`sample_web/ndrandom_web.html`] line 14:  
+  `<!-- These samples are pieces of generative art. -->`
+
+## Changed
+- [`sample_web/ndrandom_webScript.js`] line 165:  
+  `	tId=setInterval(()=>{F1();F2();F3();},delay);`
+
+## Added
+- [`sample_web/ndrandom_webScript.js`] lines 98-162: a new function `F3()` was added to draw a sigle triangular plane on the `canvas` tag
+
+## Changed
+- [`sample_web/ndrandom_webScript.js`] line 94:  
+  `		ctx.fill();`
+- [`sample_web/ndrandom_webScript.js`] lines 88-99: removed
+- [`sample_web/ndrandom_webScript.js`] line 11:  
+  `	let F1=()=>{},F2=()=>{},F3=()=>{},tId=0;`
+
+## [1.2] - 2021-08-20
+## Changed
+- [`sample_web/index.html`]: copied from `sample_web/ndrandom_web.html`
+- [`sample_web/ndrandom_web.html`] lines 26-68: added `<div class='samples>` ... `</div>` to apply CSS
+
+## Added
+- [`sample_web/ndrandom_web_style.css`] lines 14-17:  
+  `.samples{`  
+  `	display:grid;`  
+  `	grid-template-columns:30vw 30vw 30vw;`  
+  `}`
+- [`sample_web/ndrandom_web_style.css`] line 12:  
+  `	overflow:auto;`
+
+## Changed
+- [`sample_web/ndrandom_web_style.css`] lines 5 and 6:  
+  `	width:25vw;`  
+  `	height:25vw;`
+
+## Released: [1.1 beta] - 2021-08-18
+## [1.1 beta] - 2021-08-18
+## Changed
+- [`sample_web/index.html`]: copied from `sample_web/ndrandom_web.html`
+
+## Added
+- [`sample_web/ndrandom_web.html`] lines 49-63: added description for random values
+
+## Changed
+- [`sample_web/ndrandom_webScript.js`] lines 80 and 81:  
+  `		X3=x0+canvasW*(Rs[8]+Rs[9]*0.3)*Math.cos(Rs[14]+Rs[15]*0.3)*0.1;`  
+  `		Y3=y0+canvasH*(Rs[8]+Rs[9]*0.3)*Math.sin(Rs[14]+Rs[15]*0.3)*0.1;`
+- [`sample_web/ndrandom_webScript.js`] lines 76 and 77:  
+  `		X2=x0+canvasW*(Rs[6]+Rs[7]*0.3)*Math.cos(Rs[12]+Rs[13]*0.3)*0.1;`  
+  `		Y2=y0+canvasH*(Rs[6]+Rs[7]*0.3)*Math.sin(Rs[12]+Rs[13]*0.3)*0.1;`
+- [`sample_web/ndrandom_webScript.js`] lines 72 and 73:  
+  `		X1=x0+canvasW*(Rs[4]+Rs[5]*0.3)*Math.cos(Rs[10]+Rs[11]*0.3)*0.1;`  
+  `		Y1=y0+canvasH*(Rs[4]+Rs[5]*0.3)*Math.sin(Rs[10]+Rs[11]*0.3)*0.1;`
+
+## [1.1 beta] - 2021-08-16
+## Changed
+- [`sample_web/index.html`]: copied from `sample_web/ndrandom_web.html`
+- [`sample_web/ndrandom_web.html`] line 25:  
+  `		<p>Tool that outputs a random coordinates generator in n-th dimensions.<br>This program is web sample version of <a href='https://github.com/YujiSODE/nDRandom'>nDRandom</a>.</p>`
+- [`sample_web/ndrandom_webScript.js`] line 42:  
+  `	//------------`
+- [`sample_web/ndrandom_webScript.js`] line 35:  
+  `		//++++++++++++`
+- [`sample_web/ndrandom_webScript.js`] lines 11 and 12:  
+  `	let F1=()=>{},F2=()=>{},tId=0;`  
+  `	//------------`
+
+## Added
+- [`sample_web/ndrandom_web.html`] line 21:  
+  `		<script type='text/javascript' src='sampleWeb2.js'></script>`
+- [`sample_web/ndrandom_web.html`] lines 43-53: a new `canvas` tag was added to draw a triangular planes
+- [`sample_web/ndrandom_webScript.js`] lines 44-113: a new function `F2()` was added to draw a triangular plane on the `canvas` tag
+- [`sample_web/ndrandom_sampleWeb2.tcl`]
+- [`sample_web/sampleWeb2.js`]
+
+## [1.1 beta] - 2021-08-15
+## Changed
+- [`sample_web/index.html`] lines 26-42: copied from `sample_web/ndrandom_web.html`
+- [`sample_web/ndrandom_web.html`] lines 26-42: added `figure` tag, `figcaption` tag and figure title
+- [`sample_web/ndrandom_webScript.js`] lines 40-41:  
+  `	//`  
+  `	tId=setInterval(()=>{F1();},delay);`
+- [`sample_web/ndrandom_webScript.js`] lines 11-15:  
+  `	let F1=()=>{},tId=0;`  
+  `	//`  
+  `	//"Random Rectangles"`  
+  `	//F1 is function to draw a rectangle area on the canvas tag`  
+  `	F1=()=>{`
+- [`sample_web/ndrandom_web_style.css`]: a line moved from 6 to 4  
+
+## Added
+- [`sample_web/ndrandom_web_style.css`] lines 7-11:  
+  ` }`  
+  `figure{`  
+  `	border:2px solid #f00;`  
+  `	background:#eee;`  
+  `	width:30vw;`
+
 ## Released: [1.01] - 2021-08-09
 ## [1.01] - 2021-08-06
 ## Added
