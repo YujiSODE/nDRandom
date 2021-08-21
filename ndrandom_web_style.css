@@ -2,11 +2,16 @@
 canvas{
 	border:1px solid #fff;
 	background:#000;
-	width:30vw;
-	height:30vw;
+	width:25vw;
+	height:25vw;
 }
 figure{
 	border:2px solid #f00;
 	background:#eee;
 	width:30vw;
+	overflow:auto;
+}
+.samples{
+	display:grid;
+	grid-template-columns:30vw 30vw 30vw;
 }
