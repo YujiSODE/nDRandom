@@ -1,6 +1,7 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [1.2] - 2021-08-21
 ## [1.2] - 2021-08-20
 ## Changed
 - [`sample_web/index.html`]: copied from `sample_web/ndrandom_web.html`
