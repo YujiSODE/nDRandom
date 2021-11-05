@@ -2,6 +2,7 @@
 #nDRandom_IDEA.txt
 #
 # idea by Yuji Sode on [2021-05-28 to 2021-05-31] 
+# idea was fixed by Yuji Sode on [2021-11-05]
 #
 ##===================================================================
 #	Copyright (c) 2021 Yuji SODE <yuji.sode@gmail.com>
@@ -23,17 +24,17 @@
 	
 		[ei = e0]
 		`IDX0 = idx%d0`,
-		`block0 = ceil(idx/d0)`
+		`block0 = floor(idx/d0)`
 		
 		[ei = e1]
 		`IDX1 = block0%d1`,
-		`block1 = ceil(idx/(d0*d1))`
+		`block1 = floor(idx/(d0*d1))`
 		
 		...
 		
 		[ei = ej]
 		`IDXj = block(j-1) % dj`,
-		`blockj = ceil(idx/∏(di): i = 0 to j)`.
+		`blockj = floor(idx/∏(di): i = 0 to j)`.
 
 	III.
 		a coordinate element value can be estimated as follows:
