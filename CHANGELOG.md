@@ -3,6 +3,7 @@
 
 ## [2.0 beta] - 2021-11-05
 ## Fixed
+- [`sample02/sample02.tclory`]: fixed math functions as `ceil` to `floor`
 - [`sample01/sample01.tcl`]: fixed math functions as `ceil` to `floor`
 - [`ndrandomOutput_js.tcl`]: fixed math functions as `ceil` to `floor`
 - [`ndrandomOutput_tcl.tcl`]: fixed math functions as `ceil` to `floor`
