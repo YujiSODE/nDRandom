@@ -1,6 +1,7 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [2.0 beta] - 2021-11-05
 ## [2.0 beta] - 2021-11-05
 ## Fixed
 - [`sample_web/sampleWeb2.js`]: fixed math functions as `ceil` to `floor`
