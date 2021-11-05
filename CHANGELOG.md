@@ -3,6 +3,7 @@
 
 ## [2.0 beta] - 2021-11-05
 ## Fixed
+- [`nDRandom_IDEA.txt`]: fixed math functions as `ceil` to `floor`
 - [`algorithm.md`]: fixed math functions as `ceil` to `floor`
 
 ## Released: [1.2] - 2021-08-21
