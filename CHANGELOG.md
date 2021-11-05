@@ -1,6 +1,17 @@
 # Change Log 
 ## [Unreleased]
 
+## [2.0 beta] - 2021-11-05
+## Fixed
+- [`sample_web/sampleWeb2.js`]: fixed math functions as `ceil` to `floor`
+- [`sample_web/sampleWeb.js`]: fixed math functions as `ceil` to `floor`
+- [`sample02/sample02.tclory`]: fixed math functions as `ceil` to `floor`
+- [`sample01/sample01.tcl`]: fixed math functions as `ceil` to `floor`
+- [`ndrandomOutput_js.tcl`]: fixed math functions as `ceil` to `floor`
+- [`ndrandomOutput_tcl.tcl`]: fixed math functions as `ceil` to `floor`
+- [`nDRandom_IDEA.txt`]: fixed math functions as `ceil` to `floor`
+- [`algorithm.md`]: fixed math functions as `ceil` to `floor`
+
 ## Released: [1.2] - 2021-08-21
 ## [1.2] - 2021-08-20
 ## Changed

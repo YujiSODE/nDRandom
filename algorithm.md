@@ -17,17 +17,17 @@ Let _`idx`_ be in range `[0, ∏(`_`d`_*<sub>`i`</sub>*`)-1]`.
 
 #### _`e`_*<sub>`i`</sub>*`=`_`e`_<sub>`0`</sub>
 _`IDX`_<sub>`0`</sub>`=`_`idx`_`%`_`d`_<sub>`0`</sub>,  
-_`block`_<sub>`0`</sub>`=ceil(`_`idx`_`/`_`d`_<sub>`0`</sub>`)`.
+_`block`_<sub>`0`</sub>`=floor(`_`idx`_`/`_`d`_<sub>`0`</sub>`)`.
 
 #### _`e`_*<sub>`i`</sub>*`=`_`e`_<sub>`1`</sub>
 _`IDX`_<sub>`1`</sub>`=`_`block`_<sub>`0`</sub>`%`_`d`_<sub>`1`</sub>,  
-_`block`_<sub>`1`</sub>`=ceil(`_`idx`_`/(`_`d`_<sub>`0`</sub>`*`_`d`_<sub>`1`</sub>`))`
+_`block`_<sub>`1`</sub>`=floor(`_`idx`_`/(`_`d`_<sub>`0`</sub>`*`_`d`_<sub>`1`</sub>`))`
 
 `...`  
 
 #### _`e`_*<sub>`i`</sub>*`=`_`e`_*<sub>`j`</sub>*
 _`IDX`_*<sub>`j`</sub>*`=`_`block`_<sub>_`j`_`-1`</sub>`%`_`d`_*<sub>`j`</sub>*,  
-_`block`_*<sub>`j`</sub>*`=ceil(`_`idx`_`/∏(`_`d`_*<sub>`i`</sub>*`): `_`i`_`= 0 to `_`j`_`)`.
+_`block`_*<sub>`j`</sub>*`=floor(`_`idx`_`/∏(`_`d`_*<sub>`i`</sub>*`): `_`i`_`= 0 to `_`j`_`)`.
 
 ### III.
 A coordinate element value can be estimated as follows:  

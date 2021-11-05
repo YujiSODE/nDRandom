@@ -116,8 +116,8 @@ proc ::nDRandom::output\$ {NAME} {
 					puts -nonewline $c "\n\tset idx \[expr \{\$block%$e2\}\]\;";
 				};
 				#
-				#$block = ceil($u/$e3) := ceil(idx/∏(di))
-				puts -nonewline $c "set block \[expr \{int\(ceil\(\$u/$e3\)\)\}\]\;";
+				#$block = floor($u/$e3) := floor(idx/∏(di))
+				puts -nonewline $c "set block \[expr \{int\(floor\(\$u/$e3\)\)\}\]\;";
 				#
 				#$e1+$e4*$idx := min+dx*idx
 				puts -nonewline $c "lappend result \[expr \{$e1+$e4*\$idx\}\]\;";
