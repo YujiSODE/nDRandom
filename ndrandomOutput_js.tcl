@@ -113,8 +113,8 @@ proc ::nDRandom::output\$ {NAME} {
 					puts -nonewline $c "\n\tidx=block%$e2\;";
 				};
 				#
-				#$block = ceil($u/$e3) := ceil(idx/∏(di))
-				puts -nonewline $c "block=Math.ceil\(u/$e3\)\;";
+				#$block = floor($u/$e3) := floor(idx/∏(di))
+				puts -nonewline $c "block=Math.floor\(u/$e3\)\;";
 				#
 				#$e1+$e4*$idx := min+dx*idx
 				puts -nonewline $c "result.push\($e1+$e4*idx\)\;";
