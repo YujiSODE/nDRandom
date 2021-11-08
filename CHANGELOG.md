@@ -1,6 +1,8 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [2.1] - 2021-11-08
+
 ## Released: [2.0 beta] - 2021-11-05
 ## [2.0 beta] - 2021-11-05
 ## Fixed
